@@ -1,5 +1,44 @@
+/////////////////////////////////////////
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: sans-serif;
+  color: white;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+}
+
+a:link {text-decoration: none; color: white;font-size: 24px;}
+a:visited {text-decoration: none; color: #ffffffff;font-size: 24px;}
+a:active {text-decoration: none; color: #ffffffff;font-size: 24px;}
+a:hover {text-decoration: none; color: grey;font-size: 24px;}
+
+
+
+//////////////////////////////// details outer
 details {
-  width: 50%;
+  margin: 0 auto ;
+  background: #282828;
+  margin-bottom: .5rem;
+  box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+details.outer {
+  width: 80%;
+  margin: 0 auto ;
+  background: #282828;
+  margin-bottom: .5rem;
+  box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+details.inner {
+  width: 90%;
   margin: 0 auto ;
   background: #282828;
   margin-bottom: .5rem;
@@ -46,20 +85,4 @@ details > ul {
   margin-bottom: 0;
 }
 
-/////////////////////////////////////////
-
-body {
-  height: 100vh;
-  width: 100vw;
-  font-family: sans-serif;
-  color: white;
-  line-height: 1.5;
-  letter-spacing: 1px;
-  margin-top: 2rem;
-}
-
-a:link {text-decoration: none; color: white;}
-a:visited {text-decoration: none; color: #ffffffff;}
-a:active {text-decoration: none; color: #ffffffff;}
-a:hover {text-decoration: none; color: grey;}
-
+/////////////////////////////////// details inner
